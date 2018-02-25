@@ -16,13 +16,11 @@ There are 3 python script files included in this assignment.
     ```
   - LargestFIle.py is the python script which identifies the 10 files which has the lasgest size in the given folder. The folder or the drive to be scaned must be given as a command-line arguments passed to the script and it will print the desired output.
     To run the code:
-    ```
-    bash
+    ```bash
     python3 LargestFIle.py /home
     ```
     Output:
-    ```
-    bash
+    ```bash
     Name and location of the file:  /home/lashuk/Downloads/Softwares/onlyoffice-desktopeditors_amd64.deb
     Size of the file:  158.7 MB 
 
@@ -55,7 +53,6 @@ There are 3 python script files included in this assignment.
     ```
   - Sort_Move.py is the python script to rearrange files in given desktop into documents. The files are sorted based on their extensions and are moved to folders (for each different type of extension). If it encounters a new file type, it will create a new folder.
     To run the code:
-    ```
-    bash
+    ```bash
     python3 Sort_Move.py
     ```
